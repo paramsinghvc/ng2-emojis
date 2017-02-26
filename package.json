@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "An Angular 2 plugin for emojis support for text inputs and textareas.",
   "keywords": [
-    "angular 2"
+    "angular 2",
+    "angular",
+    "unicode",
+    "emoticons",
+    "emojis"
   ],
   "main": "index.js",
   "scripts": {
@@ -15,13 +19,13 @@
     "build": "npm run clean && npm run transpile && npm run package && npm run minify && npm run copy"
   },
   "license": "MIT",
-  "homepage": "https://github.com/davguij/angular-npm-module-seed",
+  "homepage": "https://github.com/paramsinghvc/ng2-emojis",
   "bugs": {
-    "url": "https://github.com/davguij/angular-npm-module-seed/issues"
+    "url": "https://github.com/paramsinghvc/ng2-emojis/issues"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/davguij/angular-npm-module-seed.git"
+    "type": "git",    
+    "url": "https://github.com/paramsinghvc/ng2-emojis.git"
   },
   "devDependencies": {
     "@angular/compiler": "^2.4.4",
