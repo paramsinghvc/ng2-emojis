@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.emoji-input-holder {
+  position: relative;
+  width: 300px;
+}
+.emoji-input-holder .smiley {
+  position: absolute;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.emoji-input-holder .smiley:before {
+  content: '☺';
+  font-size: inherit;
+  width: 20px;
+  height: 30px;
+}
+.emoji-input-holder .smiley:hover {
+  color: #757575;
+}
+.emoji-input-holder .smiley:active {
+  color: #909090;
+}
+.emoji-input-holder .smiley:focus {
+  color: #000000;
+}
+.emoji-input-holder .emojis-dialog {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 5px 15px;
+  position: absolute;
+  z-index: 2;
+  width: 200px;
+  height: 210px;
+  overflow-y: scroll;
+  right: 0;
+  font-size: 25px;
+  margin-top: 6px;
+}
+.emoji-input-holder .emojis-dialog .emoticons-category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.emoji-input-holder .emojis-dialog .emoticons-category > p {
+  font-family: sans-serif;
+  font-size: 14px;
+  flex: 1 100%;
+  margin: 10px 0;
+  border-bottom: 1px solid rgba(142, 142, 142, 0.1);
+  padding-bottom: 10px;
+}
+.emoji-input-holder .emojis-dialog .emoticons-category span.emoticon {
+  padding: 0 5px;
+  border-radius: 3px;
+}
+.emoji-input-holder .emojis-dialog .emoticons-category span.emoticon:hover {
+  background: rgba(0, 0, 0, 0.1);
+}

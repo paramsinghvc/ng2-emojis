@@ -1,0 +1,1 @@
+[{"__symbolic":"module","version":3,"metadata":{},"exports":[{"from":"./emojis.module","export":["EmojisModule"]},{"from":"./emojis.component","export":["EmojisComponent"]}]},{"__symbolic":"module","version":1,"metadata":{},"exports":[{"from":"./emojis.module","export":["EmojisModule"]},{"from":"./emojis.component","export":["EmojisComponent"]}]}]

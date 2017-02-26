@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":"AAAA,SAAS,YAAY,QAAQ,iBAAiB,CAAC;AAC/C,SAAS,eAAe,QAAQ,oBAAoB,CAAC","sourcesContent":["export { EmojisModule } from './emojis.module';\nexport { EmojisComponent } from './emojis.component';\ninterface DecoratorInvocation {\n  type: Function;\n  args?: any[];\n}\n"]}

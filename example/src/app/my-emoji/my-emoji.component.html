@@ -1,0 +1,12 @@
+<div class="emoji-input-holder">
+    <div class="smiley" role="button" tabindex="0" (click)="openDialog($event)">
+    </div>
+    <ng-content></ng-content>
+    <section class="emojis-dialog" *ngIf="isDialogOpen">
+        <section class="emoticons-category" *ngFor="let category of (emojiCodes | keys)">
+            <p>{{category}}</p>
+            <span class="emoticon" *ngFor="let eCode of emojiCodes[category]; let i = index" innerHtml="{{eCode}}" (click)="emojiSelected($event, eCode)">		
+    		</span>
+        </section>       
+    </section>
+</div>
