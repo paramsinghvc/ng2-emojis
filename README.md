@@ -5,7 +5,8 @@ An Angular 2 plugin for emojis support for text inputs and textareas
 
 # Installation
 
-`npm install ng2-emojis`
+`npm install ng2-emojis --save`
+
 
 In your app.module.ts, include `EmojisModule` into the imports array as
 
